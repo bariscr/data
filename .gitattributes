@@ -1,2 +1,0 @@
-*.Rdatad filter=lfs diff=lfs merge=lfs -text
-*.Rdata filter=lfs diff=lfs merge=lfs -text
