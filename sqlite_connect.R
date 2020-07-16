@@ -1,4 +1,9 @@
+# library ----
 library(RSQLite)
+# new db ----
+# for a new db it is enough to write a new db name
+con <- dbConnect(SQLite(), "baris2.db")
+# connection ----
 sqlitePath <- "baris.db"
 con <- dbConnect(SQLite(), sqlitePath)
 dbListTables(con)
